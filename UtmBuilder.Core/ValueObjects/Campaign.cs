@@ -21,11 +21,34 @@ public class Campaign : ValueObject
         Term = term;
         Content = content;
     }
+    /// <summary>
+    /// The Reffer eg: Google, youtube etc.
+    /// </summary>
     public string Source { get; }
+    
+    /// <summary>
+    /// Marketing Medium eg:(cpc banner etc)
+    /// </summary>
     public string Medium { get; }
+    
+    /// <summary>
+    /// Product, promo code or slogan etc
+    /// </summary>
     public string Name { get;  }
+    
+    /// <summary>
+    /// The ads campaign ID
+    /// </summary>
     public string? Id { get; }
+    
+    /// <summary>
+    /// Identify Paid keywords
+    /// </summary>
     public string? Term { get; }
+
+    /// <summary>
+    /// Use for differentiate campaigns
+    /// </summary>
     public string? Content { get;  }
 
 }

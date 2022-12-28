@@ -17,4 +17,7 @@ public class Utm
 
     public Url Url { get; }
     public Campaign Campaign { get; }
+
+
+
 }
